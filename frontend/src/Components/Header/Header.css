@@ -68,14 +68,23 @@
 }
 
 .nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .nav-menu.open {
   position: fixed;
   top: 0;
   left: 5%;
   width: 95vw;
   height: 90vh;
-  background-color: white;
+  background: linear-gradient(
+    to left,
+    rgb(230, 200, 245),
+    rgb(255, 255, 255) 110%
+  );
+
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   padding: 20px;
   transition: transform 0.1s ease;
@@ -84,4 +93,13 @@
 }
 .nav-menu.closing {
   animation: slideOut 0.5s forwards;
+}
+
+.menus-box {
+  font-size: 28px;
+  list-style-type: none;
+}
+
+.li {
+  margin-bottom: 30px;
 }

@@ -41,8 +41,8 @@ export function Header() {
             isClosing ? "closing" : ""
           }`}
         >
-          <ul>
-            <li onClick={toggleDropdown} className="dropdown-toggle">
+          <ul className="menus-box">
+            <li onClick={toggleDropdown} className="li dropdown-toggle">
               Cakes
             </li>
             {isDropdownOpen && (
@@ -61,10 +61,10 @@ export function Header() {
                 </li>
               </ul>
             )}
-            <li>
+            <li className="li">
               <a href="/about">About</a>
             </li>
-            <li>
+            <li className="li">
               <a href="/contact">Contact</a>
             </li>
           </ul>
