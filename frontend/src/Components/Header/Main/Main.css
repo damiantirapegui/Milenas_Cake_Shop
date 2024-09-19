@@ -1,0 +1,47 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: center;
+  padding: 40px 0;
+}
+
+.img-box {
+  position: relative;
+  overflow: hidden;
+  width: 85%;
+  height: 250px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+
+  opacity: 0.7;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.overlay a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  pointer-events: auto;
+}
+
+.overlay a:hover {
+  text-decoration: underline;
+}

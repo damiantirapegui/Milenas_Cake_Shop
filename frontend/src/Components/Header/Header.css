@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 15px 0 15px;
+}
+
+.title {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.strech {
+  width: 25px;
+  border: 2px solid black;
+  border-radius: 21%;
+}
