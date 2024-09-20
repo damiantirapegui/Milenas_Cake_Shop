@@ -48,16 +48,16 @@ export function Header() {
             {isDropdownOpen && (
               <ul className="dropdown">
                 <li>
-                  <a href="/wedding-cakes">Show Wedding Cakes</a>
+                  <a href="/wedding-cakes">Wedding Cakes</a>
                 </li>
                 <li>
-                  <a href="/kids-cake">Show Birthday Cakes</a>
+                  <a href="/kids-cake">Birthday Cakes</a>
                 </li>
                 <li>
-                  <a href="/regular-cake">Show Regular Cakes</a>
+                  <a href="/regular-cake">Regular Cakes</a>
                 </li>
                 <li>
-                  <a href="/cup-cake">Show Cup Cakes</a>
+                  <a href="/cup-cake">Cup Cakes</a>
                 </li>
               </ul>
             )}
